@@ -1,0 +1,515 @@
+@media screen and (max-width: 768px)
+
+{
+    header 
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 55px 55px;
+        grid-template-areas:
+        "logo sign-up"
+        "menu menu";
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+    
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    header, .filter-section, .hebergement, .activites 
+    
+    {
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 760)
+
+{
+    .header, .filter-section, .hebergement, .activites
+
+    {
+        flex-direction: column;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 768px)
+
+{
+    #logo-link 
+    
+    {
+        grid-area: logo;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    #Logo, #link3 
+    
+    {
+        padding: 15px 25px;
+        margin: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .menu 
+    
+    {
+        order: 3;
+        margin: 0;
+        padding: 0;
+        flex: 1;
+        grid-area: menu;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .menu, 
+    
+    ul 
+    
+    {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .menu ul li:nth-child(1) 
+    
+    {
+        border-top: none;
+        border-bottom: #0065fc 3px solid;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .menu ul li 
+    
+    {
+        margin: 0;
+        padding: 0;
+        flex: 1;
+        justify-content: flex-start;
+        height: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .menu ul li:nth-child(2) 
+    
+    {
+        border-bottom: #f2f2f2 3px solid;
+        font-weight: 600;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    #link3 
+    
+    {
+        grid-area: sign-up; 
+        display: flex;
+        justify-content: flex-start;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px)
+
+{
+    .filter-section 
+    
+    {
+        padding: 0 20px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px)
+
+{
+    header, .filter-section, .hebergement, .activites 
+    
+    {
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px)
+
+{
+    .filter-section__search 
+    
+    {
+        margin: 20px auto;
+        justify-content: center;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 768px)
+
+{
+    .filter-section__search bouton 
+    
+    {
+        border-radius: 15px;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 768px)
+
+{
+    #search-bouton-text 
+    
+    {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    #search-bouton-icon 
+    
+    {
+        display: block;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .filter-section__search 
+    
+    {
+        margin: 20px auto;
+        justify-content: center;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px)
+
+{
+    .filter-section__filters 
+    
+    {
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+        .filters__title 
+
+    {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .filters__bubble 
+    
+    {
+        margin: 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .hebergement 
+
+{
+    margin-bottom: 25px;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .container--hebergement 
+    
+    {
+        background-color: white;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .container--hebergement 
+    
+    {
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px)
+
+{
+    .container__title-wrapper {
+        display: flex;
+        align-items: center;
+        padding: 30px 20px 0 20px;
+    }
+    
+}
+
+@media screen and (max-width: 768px)
+
+{
+    .container__title 
+    
+    {
+        margin: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .card-container 
+    
+    {
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .card-container__card 
+    
+    {
+        width: 100%;
+        margin: 7px 0;
+    }
+
+
+    @media screen and (max-width: 767px)
+
+{
+    .container__more 
+    
+    {
+        margin: 0 15px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .container--populaire 
+    
+    {
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    #activites 
+    
+    {
+        padding: 0 15px;
+        margin: 35px 0 30px 0;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .activite-container 
+    
+    {
+
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 202.5px);
+        grid-template-areas:
+            "card1"
+            "card2"
+            "card3"
+            "card4"
+            "card5"
+            "card6";
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    .activite-card 
+    
+    {
+        max-height: 190px;
+    }
+
+}
+    
+
+@media screen and (max-width: 768px)
+
+{
+    #card3 
+    
+    {
+        grid-area: card3;
+        height: auto;
+        margin-top: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 768px)
+
+{
+    #card5 
+
+    img 
+
+    {
+        object-position: 55% 25%;
+        /* object-fit: fill; */
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px)
+
+{
+    .footer 
+    
+    {
+        flex-direction: column;
+        margin: 0;
+        padding-top: 40px;
+        background-color: #f2f2f2;
+    }
+
+}
+
+
+@media screen and (max-width: 767px)
+
+{
+    .links-footer 
+
+    {
+        margin: 0 0 30px 20px;
+        width: auto;
+    }
+
+}
+
+
+
+
+
